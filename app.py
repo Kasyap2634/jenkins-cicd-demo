@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Jenkins CI/CD!"
+    return "Hello auto-deploy works!"
 
 @app.route("/health")
 def health():
